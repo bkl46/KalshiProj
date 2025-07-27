@@ -1,0 +1,5368 @@
+[
+    {
+        "ticker": "KXNASDAQ100U",
+        "frequency": "hourly",
+        "title": "Nasdaq above/below",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXACPI",
+        "frequency": "annual",
+        "title": "US annual inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ACPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ACPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPAYROLLS",
+        "frequency": "monthly",
+        "title": "Jobs numbers",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+                "name": "BLS"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/PAYROLLS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/PAYROLLS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTIMIN",
+        "frequency": "annual",
+        "title": "WTI oil yearly low",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/index",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNYSECIRCUIT",
+        "frequency": "custom",
+        "title": "NYSE circuit breaker day",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.nyse.com/index",
+                "name": "NYSE"
+            },
+            {
+                "url": "https://sfmayor.org/news",
+                "name": "Office of the Mayor of the City and County of San Francisco"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NYSECIRCUIT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NYSECIRCUIT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPRICEINCREASEUSPSFOREVER",
+        "frequency": "custom",
+        "title": "USPS forever stamp increase",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://arstechnica.com",
+                "name": "Ars Technica"
+            },
+            {
+                "url": "https://www.bloomberg.com/news",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "CNBC"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official announcements through verified company social media accounts"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official press releases from the company"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official website of the manufacturer or service provider of product"
+            },
+            {
+                "url": "https://www.reuters.com",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://techcrunch.com",
+                "name": "TechCrunch"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.theverge.com",
+                "name": "The Verge"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/PRICEINCREASE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/PRICEINCREASE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHALFTRIL",
+        "frequency": "custom",
+        "title": "Half-trillionaire",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HALFTRIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HALFTRIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDCUSDTRATIO",
+        "frequency": "custom",
+        "title": "USDC USDT ratio",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "CoinGecko"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/STABLERATIO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/STABLERATIO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPROLLS",
+        "frequency": "monthly",
+        "title": "Jobs numbers",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+                "name": "BLS"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/PAYROLLS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/PAYROLLS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXOILW",
+        "frequency": "weekly",
+        "title": "Price of oil weekly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/OIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/OIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGASMAX",
+        "frequency": "annual",
+        "title": "Natural gas price peak",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/ng/NG_PRI_FUT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXREVETH",
+        "frequency": "custom",
+        "title": "REV ETH",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://blockworks.co/analytics/l1",
+                "name": "Blockworks"
+            },
+            {
+                "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+                "name": "BLS"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/REVCRYPTO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/REVCRYPTO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGDP",
+        "frequency": "annual",
+        "title": "Annual NGDP growth",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/GDP",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXJPY",
+        "frequency": "daily",
+        "title": "U.S. Dollar/Japanese yen exchange rate",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.imf.org/external/np/fin/data/rms_rep.aspx",
+                "name": "International Monetary Fund"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/JPY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/JPY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTRILLIONAIRE",
+        "frequency": "custom",
+        "title": "First trillionaire",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TRILLIONAIRE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TRILLIONAIRE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGOLD",
+        "frequency": "daily",
+        "title": "Price of gold",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/index",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GOLD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GOLD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXLCPIMIN",
+        "frequency": "annual",
+        "title": "High inflation ends",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LCPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTDEFICITHALF",
+        "frequency": "custom",
+        "title": "U.S. BOP",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/seriesBeta/BOPGSTB",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TDEFICIT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TDEFICIT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXMUSKWEALTH",
+        "frequency": "custom",
+        "title": "Musk wealth",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MUSKWEALTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MUSKWEALTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGDP",
+        "frequency": "custom",
+        "title": "US GDP growth",
+        "category": "Economics",
+        "tags": [
+            "Growth",
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GDP.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNASDAQ100Z",
+        "frequency": "daily",
+        "title": "Nasdaq up",
+        "category": "Financials",
+        "tags": [
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEASTCOASTPORTSTRIKE",
+        "frequency": "custom",
+        "title": "ILA strike",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.bloomberg.com/",
+                "name": "Bloomberg"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EASTCOASTPORTSTRIKE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EASTCOASTPORTSTRIKE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBRAZILU",
+        "frequency": "custom",
+        "title": "Brazil unemployment",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.ibge.gov.br/en/indicators#desemprego",
+                "name": "IGBE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BRAZILU.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BRAZILU.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXADP",
+        "frequency": "custom",
+        "title": "ADP employment change",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://adpemploymentreport.com/",
+                "name": "ADP"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ADP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ADP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTIEU",
+        "frequency": "custom",
+        "title": "WTI oil up after election",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/products/213/WTI-Crude-Futures",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIOIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIOIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSDMIN",
+        "frequency": "annual",
+        "title": "EUR/USD yearly low",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSDMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSDMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXIMFRECESS",
+        "frequency": "custom",
+        "title": "IMF global recession",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.imf.org/external/np/fin/data/rms_rep.aspx",
+                "name": "International Monetary Fund"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/IMFRECESS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/IMFRECESS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWEALTHY",
+        "frequency": "annual",
+        "title": "Wealthiest person in world",
+        "category": "Economics",
+        "tags": [
+            "CEOs",
+            "Elon Musk",
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WEALTHY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WEALTHY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBOEGOLD",
+        "frequency": "custom",
+        "title": "BOE gold withdrawals",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.abc.net.au/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.foxnews.com/",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.politico.com/",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.bbc.com/",
+                "name": "the BBC"
+            },
+            {
+                "url": "https://www.theguardian.com/us",
+                "name": "The Guardian"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.washingtonpost.com/",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BOEGOLD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BOEGOLD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDBRLMAX",
+        "frequency": "annual",
+        "title": "USD/BRL max",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/BRLUSD/",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BREALMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BREALMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTERMINALRATE",
+        "frequency": "custom",
+        "title": "Fed funds highest rate",
+        "category": "Economics",
+        "tags": [
+            "Fed"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TERMINALRATE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TERMINALRATE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCREDITC",
+        "frequency": "annual",
+        "title": "SOFR spike: Credit crunch",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.newyorkfed.org/markets/reference-rates/sofr",
+                "name": "Federal Reserve Bank of New York"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CREDITC.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CREDITC.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHICP",
+        "frequency": "monthly",
+        "title": "Euro Area inflation",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://ec.europa.eu/eurostat",
+                "name": "Eurostat"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HICP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HICP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXZERORATE",
+        "frequency": "custom",
+        "title": "Zero rates",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ZERORATE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ZERORATE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXECB",
+        "frequency": "custom",
+        "title": "European Central Bank main refinancing rate",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.ecb.europa.eu/press/pr/activities/mopo/html/index.en.html",
+                "name": "European Central Bank"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ECB.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ECB.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXHIGH",
+        "frequency": "custom",
+        "title": "When will the S&P hit an all time high",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/.INX:INDEXSP?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INXMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INXMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRATECUTCOUNT",
+        "frequency": "annual",
+        "title": "Number of rate cuts",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RATECUTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RATECUTS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSDH",
+        "frequency": "hourly",
+        "title": "EUR/USD over/under",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSEDCAR",
+        "frequency": "monthly",
+        "title": "US CPI print on used cars",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USEDCAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USEDCAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHOUSELENGTH",
+        "frequency": "monthly",
+        "title": "US house average sale length",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/MEDDAYONMARUS",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HOUSELENGTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HOUSELENGTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSPRMIN",
+        "frequency": "one_off",
+        "title": "SPRMIN",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCSSTUS1&f=W",
+                "name": "EIA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SPR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SPR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNYCRENTSM",
+        "frequency": "monthly",
+        "title": "NYC rent monthly increase",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://streeteasy.com/blog/data-dashboard",
+                "name": "StreetEasy"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NYCRENTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXOILRIGS",
+        "frequency": "custom",
+        "title": "Oil rigs",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.aogr.com/web-exclusives/us-rig-count/2025",
+                "name": "the American Oil & Gas reporter"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/OILRIGS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/OILRIGS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXMUSKTRILLION",
+        "frequency": "custom",
+        "title": "Musk trillionaire",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MUSKWEALTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MUSKWEALTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFED",
+        "frequency": "custom",
+        "title": "Fed funds rate",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+                "name": "Federal Reserve Board of Governors"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FED.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FED.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGDPQ",
+        "frequency": "custom",
+        "title": "Quarterly NGDP growth",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/GDP",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEUROIMF",
+        "frequency": "daily",
+        "title": "EUR/USD",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.imf.org/external/np/fin/data/rms_rep.aspx",
+                "name": "International Monetary Fund"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EUROIMF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EUROIMF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTREASURYMAX5",
+        "frequency": "custom",
+        "title": "Treasury 5%",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2022",
+                "name": "Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TREASURYMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TREASURYMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIFOOD",
+        "frequency": "monthly",
+        "title": "CPI on food",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPIFOOD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPIFOOD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRATECUT",
+        "frequency": "annual",
+        "title": "Fed rate cut",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RATECUT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RATECUT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXYINVERT",
+        "frequency": "annual",
+        "title": "Yield Curve Inversion",
+        "category": "Economics",
+        "tags": [
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/T10Y2Y",
+                "name": "Federal Reserve Bank of St. Louis"
+            },
+            {
+                "url": "https://fred.stlouisfed.org/series/T10Y3M",
+                "name": "Federal Reserve Bank of St. Louis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/YINVERT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/YINVERT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFXPESO",
+        "frequency": "weekly",
+        "title": "USD/Mexican peso exchange rate",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/h10/current/default.htm",
+                "name": "Federal Reserve System"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/PESO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/PESO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXREALWAGES",
+        "frequency": "custom",
+        "title": "Real wage growth",
+        "category": "Economics",
+        "tags": [
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/pdf/wkyeng.pdf",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/REALWAGES.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/REALWAGES.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPICOREYOY",
+        "frequency": "monthly",
+        "title": "Core inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/YOYCPICORE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/YOYCPICORE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFXEURO",
+        "frequency": "weekly",
+        "title": "Euro/USD exchange rate",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/h10/current/default.htm",
+                "name": "Federal Reserve System"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FOREX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FOREX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHOMEUS",
+        "frequency": "monthly",
+        "title": "US housing price up monthly",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.zillow.com/research/data/",
+                "name": "Zillow"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HOMEUS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HOMEUS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBRAZILINF",
+        "frequency": "custom",
+        "title": "Brazil inflation",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.ibge.gov.br/en/indicators#desemprego",
+                "name": "IGBE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BRAZILINF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BRAZILINF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXJOBLESS",
+        "frequency": "weekly",
+        "title": "Initial jobless claims",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.dol.gov/ui/data.pdf",
+                "name": "Department of Labor"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/JOBS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/JOBS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXLAYOFFSYINFO",
+        "frequency": "annual",
+        "title": "Tech layoffs",
+        "category": "Economics",
+        "tags": [
+            "Employment",
+            "Layoffs"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/JTU5100LDL#",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LAYOFFSY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LAYOFFSY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASD",
+        "frequency": "daily",
+        "title": "US gas price up",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTAX",
+        "frequency": "one_off",
+        "title": "Wealth tax",
+        "category": "Economics",
+        "tags": [
+            "Bills",
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.congress.gov",
+                "name": "Library of Congress"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTNOTE",
+        "frequency": "weekly",
+        "title": "Treasury yield 10Y",
+        "category": "Financials",
+        "tags": [
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2024",
+                "name": "U.S. Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TNOTE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TNOTE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXEU",
+        "frequency": "custom",
+        "title": "S&P up after election",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGBPUSDE",
+        "frequency": "custom",
+        "title": "Pound after Election",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/chart/?symbol=FX_IDC%3AGBPUSD",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GBPUSD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GBPUSD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNASDAQ100EU",
+        "frequency": "custom",
+        "title": "Nasdaq-100 DAY AFTER ELECTION",
+        "category": "Financials",
+        "tags": [
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSHORTPOSITIONACKMAN",
+        "frequency": "custom",
+        "title": "Ackman",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "person/entity"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SHORTPOSITION.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SHORTPOSITION.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXDIESEL",
+        "frequency": "weekly",
+        "title": "Diesel price this week",
+        "category": "Economics",
+        "tags": [
+            "Gas"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DIESEL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DIESEL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPICOREA",
+        "frequency": "annual",
+        "title": "Core CPI annually",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ACPICORE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ACPICORE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGBP",
+        "frequency": "daily",
+        "title": "British Pound/US Dollar exchange rate ",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.imf.org/external/np/fin/data/rms_rep.aspx",
+                "name": "International Monetary Fund"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GBP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GBP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KX10Y2Y",
+        "frequency": "custom",
+        "title": "Treasury spread 10Y-2Y",
+        "category": "Financials",
+        "tags": [
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/T10Y2Y",
+                "name": "Federal Reserve Bank of St. Louis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/10Y2Y.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/10Y2Y.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRATECUTE",
+        "frequency": "custom",
+        "title": "Rate cut at November 2024 meeting",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RATECUT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RATECUT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXZ",
+        "frequency": "daily",
+        "title": "S&P 500 up",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRETAIL",
+        "frequency": "monthly",
+        "title": "Retail sales growth",
+        "category": "Economics",
+        "tags": [
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.census.gov/retail/sales.html",
+                "name": "U.S. Census Bureau"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RETAIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RETAIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHPI",
+        "frequency": "monthly",
+        "title": "Housing Price Index",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx#mpo",
+                "name": "Federal Housing Finance Agency"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNETWORTHROYLEE",
+        "frequency": "one_off",
+        "title": "Will Roy Lee become a Billionaire by 2029",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NETWORTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NETWORTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KX10Y3M",
+        "frequency": "custom",
+        "title": "Treasury spread 10Y-3M",
+        "category": "Financials",
+        "tags": [
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/T10Y3M",
+                "name": "Federal Reserve Bank of St. Louis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/10Y3M.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/10Y3M.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSPRUSE",
+        "frequency": "custom",
+        "title": "SPR use",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.bloomberg.com/news",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://www.cbs.com",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.foxnews.com",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.nbc.com",
+                "name": "NBC"
+            },
+            {
+                "url": "https://www.politico.com",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://semafor.com",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.energy.gov",
+                "name": "the Department of Energy"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.energy.gov/fe/services/petroleum-reserves",
+                "name": "the Office of Petroleum Reserves"
+            },
+            {
+                "url": "https://www.whitehouse.gov/",
+                "name": "the President of the United States"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://abc.com/",
+                "name": "The Washington Post"
+            },
+            {
+                "url": "https://www.whitehouse.gov/",
+                "name": "the White House"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SPRUSE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SPRUSE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINEQUALITY",
+        "frequency": "custom",
+        "title": "US inequality",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=US",
+                "name": "World Bank"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INEQUALITY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INEQUALITY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXACPICORE-",
+        "frequency": "annual",
+        "title": "US annual core inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ACPICORE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ACPICORE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMAXTX",
+        "frequency": "annual",
+        "title": "Texas highest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXMINW",
+        "frequency": "one_off",
+        "title": "SP500 weekly minimum knockout ",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/.INX:INDEXSP?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INXMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INXMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXOPECCUTS",
+        "frequency": "custom",
+        "title": "Oil production cuts",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.argusmedia.com",
+                "name": "Argus Media"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.bloomberg.com/news",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://www.cbs.com",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.energyintel.com/",
+                "name": "Energy Intelligence"
+            },
+            {
+                "url": "https://www.ft.com",
+                "name": "Financial Times"
+            },
+            {
+                "url": "https://www.foxnews.com",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.nbc.com",
+                "name": "NBC"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "oil ministries of OPEC and OPEC+ member countries"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "Oil Price Information Service"
+            },
+            {
+                "url": "https://www.opec.org",
+                "name": "OPEC"
+            },
+            {
+                "url": "https://www.opec.org/opec_web/en/",
+                "name": "OPEC+"
+            },
+            {
+                "url": "https://www.politico.com",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://www.spglobal.com/platts/en",
+                "name": "S&P Global Platts"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.washingtonpost.com",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/OPEC.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/OPEC.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSDMAX",
+        "frequency": "annual",
+        "title": "EUR/USD yearly high",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSDMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSDMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPCECORE",
+        "frequency": "monthly",
+        "title": "US Core PCE inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bea.gov/data/income-saving/personal-income",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/COREPCE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/COREPCE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEGGPRICEW",
+        "frequency": "custom",
+        "title": "Egg prices weekly",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://tradingeconomics.com/commodity/eggs-us",
+                "name": "Trading Economics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EGGPRICEW.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EGGPRICEW.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNBERRECESSQ",
+        "frequency": "one_off",
+        "title": "Next recession start",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-committee-announcements",
+                "name": "NBER"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NBERRECESSQ.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NBERRECESSQ.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSOLAR",
+        "frequency": "custom",
+        "title": "Solar capcity installation",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://seia.org/research-resources/solar-market-insight-report-2023-year-review/",
+                "name": "Solar Energy Industries Association"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SOLAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SOLAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBIGBANKLAYOFF",
+        "frequency": "custom",
+        "title": "Big banks layoffs",
+        "category": "Economics",
+        "tags": [
+            "Employment",
+            "Layoffs"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bloomberg.com/",
+                "name": "Bloomberg"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BIGBANKLAYOFF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BIGBANKLAYOFF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGAS",
+        "frequency": "monthly",
+        "title": "Natural gas price max and min monthly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/ng/NG_PRI_FUT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSTABLECOINGENIUS",
+        "frequency": "custom",
+        "title": "Stablecoins approved",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "issuer of stablecoin"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "relevant State Payment Stablecoin Regulator"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the Board of Governors of the Federal Reserve System"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the Federal Deposit Insurance Corporation"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the National Credit Union Administration"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the Office of the Comptroller of the Currency"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the U"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/STABLECOINGENIUS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/STABLECOINGENIUS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCREDEF",
+        "frequency": "custom",
+        "title": "Commercial real estate defaults",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/chargeoff/delallsa.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CREDEF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CREDEF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHOMEUSY",
+        "frequency": "annual",
+        "title": "US housing prices up",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.zillow.com/research/data/",
+                "name": "Zillow"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HOMEUS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HOMEUS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPELOSINEWSTOCK",
+        "frequency": "custom",
+        "title": "Pelosi new stock",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.bloomberg.com/news",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://www.cbs.com",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.foxnews.com",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "in hierarchical order"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "member of Congress\u2019s financial reports"
+            },
+            {
+                "url": "https://www.msnbc.com",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.nbc.com",
+                "name": "NBC"
+            },
+            {
+                "url": "https://www.politico.com",
+                "name": "Politico"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "Quiver Quantitative"
+            },
+            {
+                "url": "https://www.reuters.com",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://thehill.com",
+                "name": "The Hill"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the House Clerk's Office Financial Disclosure system"
+            },
+            {
+                "url": "https://www.nytimes.com",
+                "name": "the New York Times"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the Senate Ethics Committee's public financial disclosure database"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "The Source Agencies are"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.washingtonpost.com",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CONGRESSNEWSTOCK.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CONGRESSNEWSTOCK.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCNY",
+        "frequency": "weekly",
+        "title": "USD/RMB exchange rate",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/h10/current/default.htm",
+                "name": "Federal Reserve System"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FOREX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FOREX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNASDAQ100E",
+        "frequency": "custom",
+        "title": "Nasdaq-100 election day",
+        "category": "Financials",
+        "tags": [
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFTAPER",
+        "frequency": "custom",
+        "title": "Fed tapering",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation/treasury-securities/treasury-securities-operational-details#monthly-details",
+                "name": "Federal Reserve Bank of New York"
+            },
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+                "name": "Federal Reserve Board of Governors"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FTAPER.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FTAPER.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSUEZTRAFFIC",
+        "frequency": "custom",
+        "title": "Suez traffic",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://portwatch.imf.org/pages/eventc1000000",
+                "name": "IMF Portwatch"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SUEZTRAFFIC.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SUEZTRAFFIC.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPYH",
+        "frequency": "hourly",
+        "title": "USD/JPY daily over/under",
+        "category": "Financials",
+        "tags": [
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPY",
+        "frequency": "daily",
+        "title": "USD/JPY daily range",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIYOYBANK",
+        "frequency": "one_off",
+        "title": "Inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/YOYCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/YOYCPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXDOTPLOT",
+        "frequency": "custom",
+        "title": "fed dot plot",
+        "category": "Economics",
+        "tags": [
+            "Inflation",
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+                "name": "Federal Reserve Board of Governors"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DOTPLOT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DOTPLOT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCREDEFMAX",
+        "frequency": "custom",
+        "title": "Commercial real estate highest default rate",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/chargeoff/delallsa.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CREDEFMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CREDEFMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXY",
+        "frequency": "annual",
+        "title": "S&P 500 yearly range",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDEBT",
+        "frequency": "custom",
+        "title": "U.S. debt to GDP ratio",
+        "category": "Economics",
+        "tags": [
+            "Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.fiscal.treasury.gov/reports-statements/treasury-bulletin/",
+                "name": "U.S. Treasury Department"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DEBT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DEBT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXOIL",
+        "frequency": "monthly",
+        "title": "Price of oil monthly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/OIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/OIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIYOY",
+        "frequency": "monthly",
+        "title": "Inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/YOYCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/YOYCPI.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXLCPIMAX",
+        "frequency": "annual",
+        "title": "Inflation surge",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LCPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRATEHIKE",
+        "frequency": "annual",
+        "title": "Number of Fed rate hikes",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RATEHIKE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RATEHIKE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGASMIN",
+        "frequency": "annual",
+        "title": "EIA Gas lowest price yearly",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINX",
+        "frequency": "daily",
+        "title": "S&P 500 range",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNFLXINCREASE",
+        "frequency": "one_off",
+        "title": "Netflix Price Increase",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://arstechnica.com",
+                "name": "Ars Technica"
+            },
+            {
+                "url": "https://www.bloomberg.com/news",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "CNBC"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official announcements through verified company social media accounts"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official press releases from the company"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "official website of the manufacturer or service provider of product"
+            },
+            {
+                "url": "https://www.reuters.com",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://techcrunch.com",
+                "name": "TechCrunch"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.theverge.com",
+                "name": "The Verge"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/PRICEINCREASE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/PRICEINCREASE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMINTX",
+        "frequency": "annual",
+        "title": "Texas lowest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXARGINFLATIONM",
+        "frequency": "custom",
+        "title": "Argentina inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation",
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://data-explorer.oecd.org/vis?fs[0]=Topic%2C1%7CEconomy%23ECO%23%7CPrices%23ECO_PRI%23&pg=0&fc=Topic&bp=true&snb=16&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_PRICES%40DF_PRICES_ALL&df[ag]=OECD.SDD.TPS&df[vs]=1.0&pd=%2C&dq=.M.N.CPI.PA._T.N.GY&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&to[TIME_PERIOD]=false&lo=13&lom=LASTNPERIODS&vw=tb",
+                "name": "OECD"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ARINFLATION.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ARINFLATION.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBOE",
+        "frequency": "custom",
+        "title": "Bank of England bank rate",
+        "category": "Economics",
+        "tags": [
+            "Foreign economies",
+            "Interest rates",
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+                "name": "Bank of England"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BOE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BOE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXDEBTLEVEL",
+        "frequency": "custom",
+        "title": "U.S. debt level",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/GFDEBTN",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DEBTLEVEL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DEBTLEVEL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNASDAQ100Y",
+        "frequency": "annual",
+        "title": "Nasdaq yearly range",
+        "category": "Financials",
+        "tags": [
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGDPUSMIN",
+        "frequency": "annual",
+        "title": "Negative US GDP growth",
+        "category": "Economics",
+        "tags": [
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=19&step=2#reqid=19&step=2&isuri=1&1921=survey",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEPOP",
+        "frequency": "annual",
+        "title": "Employment-population ratio",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/LNS12300060",
+                "name": "Federal Reserve Bank of St. Louis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LEPOP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LEPOP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIUSEDCAR",
+        "frequency": "monthly",
+        "title": "CPI on used cars",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USEDCAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USEDCAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRENTNYCY",
+        "frequency": "annual",
+        "title": "Rent price increase in NYC yearly",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.zillow.com/research/data/",
+                "name": "Zillow"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RENTNYC.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RENTNYC.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAMERICAPROFIT",
+        "frequency": "annual",
+        "title": "America profit",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/",
+                "name": "Treasury Department"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AMERICAPROFIT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AMERICAPROFIT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXMANHEIMUSEDCAR",
+        "frequency": "one_off",
+        "title": "Manheim Used Vehicle Value Index",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://site.manheim.com/en/services/consulting/used-vehicle-value-index.html",
+                "name": "Manheim"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MANHEIM.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MANHEIM.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRBADECISION",
+        "frequency": "custom",
+        "title": "RBA decision",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.abc.net.au/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.foxnews.com/",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.politico.com/",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RBADECISION.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RBADECISION.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTIE",
+        "frequency": "custom",
+        "title": "WTI oil election day",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/products/213/WTI-Crude-Futures",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIOIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIOIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDARSMIN",
+        "frequency": "custom",
+        "title": "USD/ARS yearly low",
+        "category": "Financials",
+        "tags": [
+            "USD/ARS"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDARS/",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDARSMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDARSMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGDPSHAREMANU",
+        "frequency": "custom",
+        "title": "GDP share manufacturing",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=19&step=2#reqid=19&step=2&isuri=1&1921=survey",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GDPSHARE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GDPSHARE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTOP3WEALTH",
+        "frequency": "custom",
+        "title": "Top 3 wealthiest people",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TOP3WEALTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TOP3WEALTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTI",
+        "frequency": "custom",
+        "title": "WTI oil election day",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/products/213/WTI-Crude-Futures",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIOIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIOIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSFRENTSY",
+        "frequency": "annual",
+        "title": "SF yearly rent growth",
+        "category": "Economics",
+        "tags": [
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.zillow.com/research/data/",
+                "name": "Zillow"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SFRENT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SFRENT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPI",
+        "frequency": "monthly",
+        "title": "CPI",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPI.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNYCRENTSY",
+        "frequency": "annual",
+        "title": "NYC rent yearly increase",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://streeteasy.com/blog/data-dashboard",
+                "name": "StreetEasy"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NYCRENTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXU",
+        "frequency": "hourly",
+        "title": "S&P 500 above/below",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPYE",
+        "frequency": "custom",
+        "title": "USDJPY election day",
+        "category": "Financials",
+        "tags": [
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDX",
+        "frequency": "annual",
+        "title": "De-dollarization: USD index yearly low",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.cnbc.com/quotes/.DXY",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIGAS",
+        "frequency": "monthly",
+        "title": "CPI on gas",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPIGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPIGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIAPPAREL",
+        "frequency": "monthly",
+        "title": "CPI on apparel",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPIAPPAREL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPIAPPAREL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPYEU",
+        "frequency": "custom",
+        "title": "USDJPY day AFTER ELECTION",
+        "category": "Financials",
+        "tags": [
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXU3MIN",
+        "frequency": "annual",
+        "title": "Unemployment keeps falling",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LU3.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LU3.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEGGS",
+        "frequency": "custom",
+        "title": "Egg prices",
+        "category": "Economics",
+        "tags": [
+            "Inflation",
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GOODS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GOODS.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGASMIN",
+        "frequency": "annual",
+        "title": "Natural gas yearly low",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/ng/NG_PRI_FUT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEDRATEMIN",
+        "frequency": "custom",
+        "title": "How low will the Fed rate go",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEDRATEMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEDRATEMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXPOS",
+        "frequency": "one_off",
+        "title": "S&P500 Positive this year",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFRM",
+        "frequency": "weekly",
+        "title": "Mortgage 30-yr rate this week",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "http://www.freddiemac.com/pmms/",
+                "name": "Freddie Mac"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FRM.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FRM.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCOIN",
+        "frequency": "custom",
+        "title": "Trillion dollar coin minted",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/",
+                "name": "U.S. Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/COIN.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/COIN.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSEMIPRODH",
+        "frequency": "annual",
+        "title": "US Semiconductor production",
+        "category": "Economics",
+        "tags": [
+            "AI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/g17/Current/g17.pdf",
+                "name": "Board of Governors of the Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/SEMIPROD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/SEMIPROD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWEALTH",
+        "frequency": "custom",
+        "title": "Person wealthiest",
+        "category": "Economics",
+        "tags": [
+            "CEOs",
+            "Elon Musk"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.forbes.com/real-time-billionaires/#45c1a6b23d78",
+                "name": "Forbes"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WEALTH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WEALTH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURO",
+        "frequency": "weekly",
+        "title": "EURO/USD exchange rate",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/h10/current/default.htm",
+                "name": "Federal Reserve System"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXISMPMI",
+        "frequency": "custom",
+        "title": "ISM PMI",
+        "category": "Economics",
+        "tags": [
+            "KPIs"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/",
+                "name": "ISM"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ISM.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ISM.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCHINAUSGDP",
+        "frequency": "one_off",
+        "title": "China overtakes US GDP",
+        "category": "Economics",
+        "tags": [
+            "Foreign economies",
+            "Growth",
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.imf.org/en/Publications/WEO",
+                "name": "IMF"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CHINAUSGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CHINAUSGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRECSSNBER",
+        "frequency": "annual",
+        "title": "Recession",
+        "category": "Economics",
+        "tags": [
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NBERRECSS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NBERRECSS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTETHERPAUSE",
+        "frequency": "custom",
+        "title": "Tether pause",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "Tether Limited"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "the Tether official website (tether"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TETHERPAUSE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TETHERPAUSE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTHIELCHARTER",
+        "frequency": "custom",
+        "title": "Thiel charter",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://abcnews.go.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.bloomberg.com/",
+                "name": "Bloomberg"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnbc.com",
+                "name": "CNBC"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "Federal Deposit Insurance Corporation"
+            },
+            {
+                "url": "https://www.federalregister.gov/",
+                "name": "Federal Register"
+            },
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            },
+            {
+                "url": "https://www.ft.com",
+                "name": "Financial Times"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "Fox Business"
+            },
+            {
+                "url": "https://www.nbcnews.com/",
+                "name": "NBC"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "\ue907Office of the Comptroller of the Currency"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.nytimes.com",
+                "name": "the New York Times"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "US Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BANKCHAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BANKCHAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFERT",
+        "frequency": "one_off",
+        "title": "Fertilizer prices",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports",
+                "name": "USDA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FERT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FERT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEDMEET",
+        "frequency": "custom",
+        "title": "Fed emergency meeting",
+        "category": "Economics",
+        "tags": [
+            "Interest rates",
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEDMEET.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEDMEET.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTNOTED",
+        "frequency": "daily",
+        "title": "Treasury 10Y daily yield",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2024",
+                "name": "U.S. Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TNOTE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TNOTE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDRUBMAX",
+        "frequency": "custom",
+        "title": "USD/RUB yearly high",
+        "category": "Financials",
+        "tags": [
+            "USD/RUB"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDRUB/?exchange=FX_IDC",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDRUBMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDRUBMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTNOTEW",
+        "frequency": "weekly",
+        "title": "Treasury 10Y weekly yield",
+        "category": "Financials",
+        "tags": [
+            "Treasuries"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2024",
+                "name": "U.S. Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TNOTE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TNOTE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEDDECISION",
+        "frequency": "custom",
+        "title": "Fed meeting",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEDDECISION.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEDDECISION.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "INXI",
+        "frequency": "hourly",
+        "title": "S&P500 hourly",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/.INX:INDEXSP?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INXI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INXI.pdf",
+        "fee_type": "flat",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPICN",
+        "frequency": "annual",
+        "title": "China inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/categories/32266",
+                "name": "Federal Reserve Economic Data"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WCPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGAS",
+        "frequency": "weekly",
+        "title": "Gas weekly",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_GND_DCUS_NUS_W.htm",
+                "name": "U.S. Energy Information Agency"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPYMAX",
+        "frequency": "annual",
+        "title": "USD/JPY yearly high",
+        "category": "Financials",
+        "tags": [
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPYMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPYMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHOME",
+        "frequency": "monthly",
+        "title": "New home sales",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.census.gov/construction/nrs/pdf/newressales.pdf",
+                "name": "U.S. Census Bureau"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HOME.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HOME.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXHOUSESTART",
+        "frequency": "monthly",
+        "title": "US housing starts rise",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/HOUST",
+                "name": "Federal Reserve Economic Data (Housing Starts)"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/HOUSESTART.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/HOUSESTART.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWHEAT",
+        "frequency": "monthly",
+        "title": "Average wheat price",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.usda.gov/oce/commodity/wasde",
+                "name": "United States Department of Agriculture"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WHEAT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WHEAT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDTWDMAX",
+        "frequency": "custom",
+        "title": "USD/TWD yearly high",
+        "category": "Financials",
+        "tags": [
+            "USD/TWD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDTWD/",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDTWDMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDTWDMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXE",
+        "frequency": "custom",
+        "title": "S&P election day",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://about.google/",
+                "name": "Google"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDJPYMIN",
+        "frequency": "annual",
+        "title": "USD/JPY yearly low",
+        "category": "Financials",
+        "tags": [
+            "USD/JPY"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDJPY/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDJPYMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDJPYMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBARRELS",
+        "frequency": "custom",
+        "title": "Oil barrels",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://abcnews.go.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCSSTUS1&f=W",
+                "name": "EIA"
+            },
+            {
+                "url": "https://www.foxnews.com/",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.politico.com/",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BARRELS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BARRELS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBALANCESHEET",
+        "frequency": "custom",
+        "title": "Fed balance sheet",
+        "category": "Economics",
+        "tags": [
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BALANCESHEET.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BALANCESHEET.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXDOLLARFED",
+        "frequency": "custom",
+        "title": "FOMC decision -> EUR/USD",
+        "category": "Financials",
+        "tags": [
+            "Fed"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            },
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DOLLARFED.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DOLLARFED.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBANKRUPTSY",
+        "frequency": "annual",
+        "title": "Companies going bankrupt yearly",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://disclosure.spglobal.com/sri/",
+                "name": "Standard & Poor's"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BANKRUPTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BANKRUPTS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFRMMIN",
+        "frequency": "annual",
+        "title": "Mortgage rate low",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "http://www.freddiemac.com/pmms/",
+                "name": "Freddie Mac"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MORTGAGE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MORTGAGE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNGASW",
+        "frequency": "weekly",
+        "title": "Natural gas price max and min weekly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/ng/NG_PRI_FUT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCREDITCDEF",
+        "frequency": "custom",
+        "title": "Credit card defaults up",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults",
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CREDITCDEF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CREDITCDEF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXMAXY",
+        "frequency": "annual",
+        "title": "S&P 500 max yearly",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/.INX:INDEXSP?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INXMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INXMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMAX",
+        "frequency": "annual",
+        "title": "US highest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEXPORTTARIFF",
+        "frequency": "one_off",
+        "title": "Export tariffs",
+        "category": "Economics",
+        "tags": [
+            "Inflation",
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://abcnews.go.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.foxnews.com/",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.politico.com/",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.whitehouse.gov/",
+                "name": "the Executive Branch"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EXPORTTARIFF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EXPORTTARIFF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXLCPIMAXYOY",
+        "frequency": "one_off",
+        "title": "Inflation surge this year",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LCPIYOY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LCPIYOY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBOJDECISION",
+        "frequency": "custom",
+        "title": "BOJ decision",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.boj.or.jp/en/about/organization/policyboard/index.htm",
+                "name": "Bank of Japan"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BOJDECISION.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BOJDECISION.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEAR",
+        "frequency": "custom",
+        "title": "Fear and Greed index",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.cnn.com/markets/fear-and-greed",
+                "name": "CNN Fear & Greed Index"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXJOBLESSCLAIMS",
+        "frequency": "weekly",
+        "title": "Weekly initial jobless claims",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.dol.gov/ui/data.pdf",
+                "name": "Department of Labor"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/JOBLESS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/JOBLESS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAVGTARIFF",
+        "frequency": "custom",
+        "title": "Average tariff rate",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/graph/?g=1wn5e",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AVGTARIFF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AVGTARIFF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMINCA",
+        "frequency": "annual",
+        "title": "California lowest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEDFACILITY",
+        "frequency": "annual",
+        "title": "Fed facility",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEDFACILITY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEDFACILITY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDMEXMAX",
+        "frequency": "custom",
+        "title": "USD/MEX maximum",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDMXN/",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MEXPESOMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MEXPESOMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGAS-MONTH",
+        "frequency": "monthly",
+        "title": "Gas monthly",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_GND_DCUS_NUS_W.htm",
+                "name": "U.S. Energy Information Agency"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNDEBTSHRINK",
+        "frequency": "custom",
+        "title": "national debt shrinking",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults",
+            "Debt ceiling & shutdowns",
+            "Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://home.treasury.gov/",
+                "name": "U.S. Department of the Treasury"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NDEBTSHRINK.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NDEBTSHRINK.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTRDDEFCN",
+        "frequency": "weekly",
+        "title": "US-China trade deficit",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.census.gov/foreign-trade/Press-Release/current_press_release/ft900.pdf",
+                "name": "U.S. Census Bureau"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CDEF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CDEF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWRECSS",
+        "frequency": "custom",
+        "title": "World recessions",
+        "category": "Economics",
+        "tags": [
+            "Foreign economies",
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://data.imf.org/?sk=4c514d48-b6ba-49ed-8ab9-52b0c1a0179b&sId=-1",
+                "name": "IMF"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WRECSS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WRECSS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSDE",
+        "frequency": "custom",
+        "title": "EUR/USD election day",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSDARSMAX",
+        "frequency": "custom",
+        "title": "USD/ARS yearly high",
+        "category": "Financials",
+        "tags": [
+            "USD/ARS"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/USDARS/",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USDARSMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USDARSMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGDPYEAR",
+        "frequency": "custom",
+        "title": "Annual GDP",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GDPYEAR.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GDPYEAR.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCOSTCOMEMBER",
+        "frequency": "custom",
+        "title": "Costco membership price increase",
+        "category": "Economics",
+        "tags": [
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.costco.com/",
+                "name": "Costco"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/COSTCO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/COSTCO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTIW",
+        "frequency": "weekly",
+        "title": "WTI oil weekly range",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/products/213/WTI-Crude-Futures",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIOIL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIOIL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNFPDELAY",
+        "frequency": "custom",
+        "title": "Jobs data released",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NFPDELAY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NFPDELAY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIDELAY",
+        "frequency": "custom",
+        "title": "CPI data released",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPIDELAY.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPIDELAY.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXRENTNYCM",
+        "frequency": "monthly",
+        "title": "Rent price increase in NYC monthly",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.zillow.com/research/data/",
+                "name": "Zillow"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/RENTNYC.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/RENTNYC.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXU3",
+        "frequency": "monthly",
+        "title": "Unemployment",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/U3.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/U3.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCOSTCOHOTDOG",
+        "frequency": "custom",
+        "title": "Costco hot dog price increase",
+        "category": "Economics",
+        "tags": [
+            "Retail/consumer spending"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.costco.com/",
+                "name": "Costco"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/COSTCO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/COSTCO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPICORE",
+        "frequency": "monthly",
+        "title": "CPI core",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/cpi/",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CORECPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CORECPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSDEOY",
+        "frequency": "custom",
+        "title": "Euro > Dollar",
+        "category": "Financials",
+        "tags": [
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXDIESELM",
+        "frequency": "monthly",
+        "title": "Diesel price this month",
+        "category": "Economics",
+        "tags": [
+            "Gas"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/DIESEL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/DIESEL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXLARGECUT",
+        "frequency": "custom",
+        "title": "Large cuts",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LARGECUT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LARGECUT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEMERCUTS",
+        "frequency": "custom",
+        "title": "Emergency rate cuts",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EMERCUTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EMERCUTS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASM",
+        "frequency": "monthly",
+        "title": "US gas price",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGAS.pdf",
+        "fee_type": "quadratic_with_maker_fees",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPISHELTER",
+        "frequency": "monthly",
+        "title": "CPI on shelter",
+        "category": "Economics",
+        "tags": [
+            "Housing",
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CPISHELTER.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CPISHELTER.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMIN",
+        "frequency": "annual",
+        "title": "US lowest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXINXMINY",
+        "frequency": "custom",
+        "title": "S&P 500 max yearly",
+        "category": "Financials",
+        "tags": [
+            "S&P"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/.INX:INDEXSP?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/INXMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/INXMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASMAXCA",
+        "frequency": "annual",
+        "title": "California highest gas price yearly",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFEDHIKE",
+        "frequency": "custom",
+        "title": "Next Fed rate hike",
+        "category": "Economics",
+        "tags": [
+            "Interest rates"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FEDHIKE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FEDHIKE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXWTIMAX",
+        "frequency": "annual",
+        "title": "WTI oil yearly high",
+        "category": "Financials",
+        "tags": [
+            "WTI"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.theice.com/index",
+                "name": "ICE"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WTIMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WTIMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCNGDP",
+        "frequency": "one_off",
+        "title": "China quarterly GDP change in 2021 Q2",
+        "category": "Economics",
+        "tags": [
+            "Growth",
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "http://www.stats.gov.cn/english/PressRelease/",
+                "name": "National Bureau of Statistics of China"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/CNGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/CNGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGDPUSMAX",
+        "frequency": "annual",
+        "title": "US GDP peak ",
+        "category": "Economics",
+        "tags": [
+            "Growth"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=19&step=2#reqid=19&step=2&isuri=1&1921=survey",
+                "name": "Bureau of Economic Analysis"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LGDP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LGDP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFRMMAX",
+        "frequency": "annual",
+        "title": "Mortgage rate high",
+        "category": "Economics",
+        "tags": [
+            "Housing"
+        ],
+        "settlement_sources": [
+            {
+                "url": "http://www.freddiemac.com/pmms/",
+                "name": "Freddie Mac"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MORTGAGE.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MORTGAGE.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXREVSOL",
+        "frequency": "one_off",
+        "title": "REV ETH",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://blockworks.co/analytics/l1",
+                "name": "Blockworks"
+            },
+            {
+                "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+                "name": "BLS"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/REVCRYPTO.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/REVCRYPTO.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXNASDAQ100",
+        "frequency": "daily",
+        "title": "Nasdaq range",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXU3MAX",
+        "frequency": "annual",
+        "title": "Unemployment spike",
+        "category": "Economics",
+        "tags": [
+            "Employment"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.bls.gov/news.release/empsit.toc.htm",
+                "name": "Bureau of Labor Statistics"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/LU3.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/LU3.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXMORTGAGEDEF",
+        "frequency": "custom",
+        "title": "Mortgage defaults",
+        "category": "Economics",
+        "tags": [
+            "Defaults",
+            "Housing",
+            "Mortgages"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/chargeoff/delallsa.htm",
+                "name": "Federal Reserve"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MORTGAGEDEF.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MORTGAGEDEF.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTARIFFREVENUE",
+        "frequency": "custom",
+        "title": "Tariff revenue",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/graph/?g=1wn5e",
+                "name": "FRED"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ECONSTAT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXCPIEU",
+        "frequency": "annual",
+        "title": "Euro area inflation",
+        "category": "Economics",
+        "tags": [
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/categories/32266",
+                "name": "Federal Reserve Economic Data"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/WCPI.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/WCPI.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXTFP",
+        "frequency": "custom",
+        "title": "Total factor productivity",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/total-factor-productivity-tfp/",
+                "name": "San Francisco Federal Reserve Bank"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/TFP.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/TFP.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXFOMCDISSENTCOUNT",
+        "frequency": "custom",
+        "title": "FOMC dissent count",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://abcnews.go.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.bloomberg.com",
+                "name": "Bloomberg News"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://kalshi.com/",
+                "name": "Federal Open Market Committee"
+            },
+            {
+                "url": "https://www.foxnews.com",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.nbcnews.com/",
+                "name": "NBC"
+            },
+            {
+                "url": "https://www.politico.com",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://semafor.com",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://www.ap.org",
+                "name": "the Associated Press"
+            },
+            {
+                "url": "https://www.federalreserve.gov",
+                "name": "the Federal Reserve"
+            },
+            {
+                "url": "https://www.theinformation.com",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.washingtonpost.com",
+                "name": "The Washington Post"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FOMCDISSENTCOUNT.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FOMCDISSENTCOUNT.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXEURUSD",
+        "frequency": "daily",
+        "title": "EUR/USD daily range",
+        "category": "Financials",
+        "tags": [
+            "Daily",
+            "EUR/USD"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.tradingview.com/symbols/EURUSD/?exchange=FX_IDC",
+                "name": "ICE "
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/EURUSD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/EURUSD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXECONPATH",
+        "frequency": "annual",
+        "title": "State of the economy",
+        "category": "Economics",
+        "tags": [
+            "Employment",
+            "Inflation"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://fred.stlouisfed.org/series/UNRATE",
+                "name": "Federal Reserve Economic Data"
+            },
+            {
+                "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+                "name": "Federal Reserve Economic Data"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/ECONPATH.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/ECONPATH.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "NASDAQ100I",
+        "frequency": "hourly",
+        "title": "Nasdaq-100 hourly",
+        "category": "Financials",
+        "tags": [
+            "Nasdaq"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.google.com/finance/quote/NDX:INDEXNASDAQ?hl=en",
+                "name": "For example, Google Finance"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/NASDAQ100I.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/NASDAQ100I.pdf",
+        "fee_type": "flat",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXSTABLETOTAL",
+        "frequency": "custom",
+        "title": "USDC USDT total",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://kalshi.com/",
+                "name": "CoinGecko"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/STABLETOTAL.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/STABLETOTAL.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 0,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXAAAGASW",
+        "frequency": "weekly",
+        "title": "US gas price up",
+        "category": "Economics",
+        "tags": [
+            "Oil and energy"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://gasprices.aaa.com/",
+                "name": "AAA"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/AAAGAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/AAAGAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGASD",
+        "frequency": "one_off",
+        "title": "Gas daily",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_GND_DCUS_NUS_W.htm",
+                "name": "U.S. Energy Information Agency"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GAS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GAS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXUSFUNDHEAD",
+        "frequency": "custom",
+        "title": "US Sovereign wealth fund",
+        "category": "Financials",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://abcnews.go.com/",
+                "name": "ABC"
+            },
+            {
+                "url": "https://apnews.com/",
+                "name": "AP"
+            },
+            {
+                "url": "https://www.axios.com/",
+                "name": "Axios"
+            },
+            {
+                "url": "https://www.bloomberg.com/",
+                "name": "Bloomberg"
+            },
+            {
+                "url": "https://www.cbsnews.com/",
+                "name": "CBS"
+            },
+            {
+                "url": "https://www.cnn.com/",
+                "name": "CNN"
+            },
+            {
+                "url": "https://www.treasury.gov",
+                "name": "Department of the Treasury"
+            },
+            {
+                "url": "https://www.foxnews.com/",
+                "name": "Fox News"
+            },
+            {
+                "url": "https://www.msnbc.com/",
+                "name": "MSNBC"
+            },
+            {
+                "url": "https://www.nbcnews.com/",
+                "name": "NBC"
+            },
+            {
+                "url": "https://www.whitehouse.gov/administration/executive-office-of-the-president/",
+                "name": "Office of the Presidency"
+            },
+            {
+                "url": "https://www.politico.com/",
+                "name": "Politico"
+            },
+            {
+                "url": "https://www.reuters.com/",
+                "name": "Reuters"
+            },
+            {
+                "url": "https://www.semafor.com/",
+                "name": "Semafor"
+            },
+            {
+                "url": "https://www.theinformation.com/",
+                "name": "The Information"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times"
+            },
+            {
+                "url": "https://www.wsj.com/",
+                "name": "The Wall Street Journal"
+            },
+            {
+                "url": "https://www.washingtonpost.com/",
+                "name": "The Washington Post"
+            },
+            {
+                "url": "https://whitehouse.gov/",
+                "name": "White House"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/USFUNDHEAD.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/USFUNDHEAD.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXBANKRUPTS",
+        "frequency": "monthly",
+        "title": "Companies going bankrupt",
+        "category": "Economics",
+        "tags": [
+            "Bankruptcy & Defaults"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://disclosure.spglobal.com/sri/",
+                "name": "Standard & Poor's"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/BANKRUPTS.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/BANKRUPTS.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXPESO",
+        "frequency": "weekly",
+        "title": "USD/Peso exchange rate",
+        "category": "Economics",
+        "tags": [
+            "International"
+        ],
+        "settlement_sources": [
+            {
+                "url": "https://www.federalreserve.gov/releases/h10/current/default.htm",
+                "name": "Federal Reserve System"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/FOREX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/FOREX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    },
+    {
+        "ticker": "KXGASMAX",
+        "frequency": "annual",
+        "title": "EIA Gas highest price yearly",
+        "category": "Economics",
+        "tags": null,
+        "settlement_sources": [
+            {
+                "url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+                "name": "Energy Information Administration"
+            }
+        ],
+        "contract_url": "https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/GASMINMAX.pdf",
+        "contract_terms_url": "https://kalshi-public-docs.s3.amazonaws.com/contract_terms/GASMINMAX.pdf",
+        "fee_type": "quadratic",
+        "fee_multiplier": 1,
+        "additional_prohibitions": null
+    }
+]

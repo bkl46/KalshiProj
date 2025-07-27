@@ -7,7 +7,7 @@ from clients import KalshiHttpClient, KalshiWebSocketClient, Environment
 
 # Load environment variables
 load_dotenv()
-env = Environment.PROD # toggle env here
+env = Environment.DEMO # toggle env here
 print(env)
 KEYID = os.getenv('DEMO_KEYID') if env == Environment.DEMO else os.getenv('PROD_KEYID')
 KEYFILE = os.getenv('DEMO_KEYFILE') if env == Environment.DEMO else os.getenv('PROD_KEYFILE')
@@ -42,4 +42,4 @@ ws_client = KalshiWebSocketClient(
 )
 
 # Connect via WebSocket
-asyncio.run(ws_client.connect())
+#asyncio.run(ws_client.connect())
