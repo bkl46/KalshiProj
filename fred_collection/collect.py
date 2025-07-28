@@ -32,5 +32,6 @@ def fetch_cpi_core_yoy(api_key, series_id=SERIES_ID):
     return df
 
 df = fetch_cpi_core_yoy(FRED_API_KEY)
+df['core_cpi_ch'] = df['core_cpi_yoy'].pct_change(periods=12) * 100
 df.to_csv("data/cpi_core_yoy.csv", index=False)
 print("CPI Core YoY data fetched and saved to cpi_core_yoy.csv")
